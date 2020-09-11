@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog1</title>
+<meta charset="UTF-8">
+
+<style>
+    body{
+        background-color: black;
+        margin: 150px;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        
+        padding:20px;
+    }
+    .list{
+       padding-left: 50px; 
+    }
+</style>
+
+
+</head>
+
+<body>
+    <main>
+    <div class="content">
+
+<blockquote>HTML is one area which I am not familiar and have breif knowledge about. Therefore, everything I have learnt/learning from CS 347 
+   from the very beginning helps in the development of a core foundation about HTML and CSS. Monocolumn Design is something I want to 
+   talk about in this blog. I have seen this design on several websites. Even on the wedding cards in India one could often find the 
+   Monocolumn Design used.</blockquote>
+ 
+<blockquote>  Monocolumn pattern is a single column layout design where we implement the box-model idea. We have a fixed width column on the
+    webpage where we write all the contents. The column is centered by setting the margin to (0,auto). Thus it centers the column on the 
+webpage. Few key point take aways while creating the pattern were: </blockquote>
+
+<div class="list">
+<ul>
+    <li>
+        Setting the height to 'min-height' and giving value 100vh. This allows users to scroll down the page without any interruptions to the layout
+        even if you have numerous contents. 
+    </li>
+    <li>
+        To remove the whitespace between the body and the column, you should include padding to the column and also set the margin of the body
+        to 0.
+    </li>
+    <li>
+        There is a feature called box-shadow which helps to set apart the column from the body. The four inputs are x-offset, vertical offset, 
+        shadow concentration, and the color.
+    </li>
+</ul>
+</div>
+<p style="color: rgb(151, 76, 76);">
+The CSS code sample is: <br>
+</p>
+<pre>   
+body{ 
+   margin:0; 
+}
+#id{
+    width: 960px;
+    min-height: 100vh;
+    margin: 0,auto;
+    box-shadow: 0 0 20px gray;
+    box-sizing: border-box;
+}
+</pre> 
+
+<footer> Please click on the <a href = "https://www.youtube.com/watch?v=a0ob5OTpNI4&feature=youtu.be">source </a> to watch the video about 
+Monocolumn pattern </footer>
+</div>
+</main>
+
+</body>
+
+</html>

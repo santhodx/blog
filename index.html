@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog</title>
+<meta charset="UTF-8">
+
+<!-- <link rel = "stylesheet" href = "blog.css"> -->
+
+<style>
+body{
+    background-image: url('solo.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.root{
+    background-color:black;
+    text-align: center;
+    font-family:verdana;
+    color: blanchedalmond;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button{
+    border : 1px solid black;
+    background: none;
+    padding: 10px, 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+</style>
+
+
+</head>
+
+<body>
+    <div class="root">
+<h1>My Blogs</h1>
+</div>
+<p>Welcome to my weekly blogs! </p>
+
+<div class="container">
+<button class="button button1" onclick="window.open('blog1.html');">Blog 1</button>
+<button class="button button2">Blog 2</button>
+<button class="button button3">Blog 3</button>
+<button class="button button4">Blog 4</button>
+<button class="button button5">Blog 5</button>
+</div> 
+
+</body>
+</html>
