@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog1</title>
+<meta charset="UTF-8">
+
+<style>
+    body{
+        background-color: black;
+        margin: 150px;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        
+        padding:20px;
+    }
+    
+</style>
+
+
+</head>
+
+<body>
+    <main>
+    <div class="content">
+
+<blockquote>In this blog I am talking about 'Required' Attribute in HTML.</blockquote>
+ 
+<blockquote> It is widely used to notify the users that the particular text box cannot be empty. Most common websites that use Required
+    attributes are Booking/Reservation websites including hotels, airlines etc. The required attribute works with the following input types: 
+    text, search, url, tel, email, password, date pickers, number, checkbox, radio, and file.  </blockquote>
+
+<blockquote>In the code sample below I have implemented a sample form submission page that requires a username and password from 
+    the users. 'Required' attribute feature is applied to the 'Username' box, so that when a user click on the submit button leaving the 
+    textbox empty, the page stays the same and prompts user to fill the specific field.  
+</blockquote>
+
+
+<p style="color: rgb(187, 129, 20);">
+The code sample within the body is: 
+</p>
+<pre>   
+    body
+        
+        form action="" 
+            Username: 
+            input type="text"
+                   name="usrname"
+                   required> 
+            br Password: 
+            input type="password"
+                   name="password"> 
+            br 
+            input type="submit"
+        form 
+    
+    body
+    
+</pre> 
+
+<footer> Please click on the <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required">source </a>  to read more about 
+Required Attribute </footer>
+</div>
+</main>
+
+</body>
+
+</html>
