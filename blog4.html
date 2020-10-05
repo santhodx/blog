@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blogg3</title>
+<meta charset="UTF-8">
+
+<style>
+    body{
+        background-color: black;
+        margin: 150px;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        
+        padding:20px;
+    }
+    
+</style>
+
+
+</head>
+
+<body>
+    <main>
+    <div class="content">
+
+<blockquote>In this blog I am talking about 'Map' Attribute in HTML.</blockquote>
+ 
+<blockquote> 'Map' tag helps to define image map. An image map is an image where users are able to click on
+    specific parts on the image to get the result. It provides clickable areas. </blockquote>
+
+<blockquote> The name attribute within the map tag is the same name used in the usemap of img.src. This 
+    establishes a connection between the map and image.
+</blockquote>
+
+
+<h3 style="color:rgba(33, 77, 4, 0.315)";>
+The code sample within the body is: 
+</h3>
+
+<pre>   
+    img src="table.jpg" alt="Table" usemap="#tablemap" width="400" height="380">
+
+    map name="tablemap">
+      area shape="rect" coords="28,60,290,322" alt="Lamp" href="lamp.htm">
+      area shape="rect" coords="295,178,310,240" alt="Mug" href="mug.htm">
+      area shape="circle" coords="348,286,41" alt="Pencil" href="pencil.htm">
+    /map>
+    
+    
+</pre> 
+
+
+<footer> Please click on the <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map">source </a>  to read more about 
+Map Attribute </footer>
+</div>
+</main>
+
+</body>
+
+</html>
