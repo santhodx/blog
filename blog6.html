@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog 6</title>
+<meta charset="UTF-8">
+
+<style>
+    body{
+        background-color: black;
+        margin: 150px;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        
+        padding:20px;
+    }
+    
+</style>
+
+
+</head>
+
+<body>
+    <main>
+    <div class="content">
+
+<blockquote>In this blog I am talking about 'onkeydown' Event in JavaScript.</blockquote>
+ 
+<blockquote> What 'onkeydown' does is that, it fires a function when a user presses any key in the keyboard. While 
+    'onkeypress' also does a similar job, it does not support few keys such as alt, command, control, shift etc. On the
+    contrary, 'onkeydown' applies to every keys on a keyboard.   </blockquote>
+
+<blockquote> One real life example of the 'onkeydown' event usage is, when you try to download a file, a pop up appears
+    saying 'press any key to initiate the download.' This can be achieved with the help of 'onkeydown' event.
+</blockquote>
+
+
+<h3 style="color:rgba(226, 124, 86, 0.986)";>
+The code sample within the body is: 
+</h3>
+
+<pre>   
+    input type="text" onkeydown="myFunc()">
+    script>
+        function myFunc() {
+          alert("You pressed a key inside the input field");
+        }
+        /script>
+
+</pre> 
+
+
+<footer> Please click on the <a href = "https://www.w3schools.com/jsref/dom_obj_event.asp"> source </a>   to read more about 
+'onkeydown' events </footer>
+</div>
+</main>
+
+</body>
+
+</html>
