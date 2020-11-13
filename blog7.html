@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog 6</title>
+<meta charset="UTF-8">
+
+<style>
+    body{
+        background-color: black;
+        margin: 150px;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        
+        padding:20px;
+    }
+    
+</style>
+
+
+</head>
+
+<body>
+    <main>
+    <div class="content">
+
+<blockquote>In this blog I am talking about 'z-index' property in CSS.</blockquote>
+ 
+<blockquote> z-index specifies te stack order for an element. An element which has greater stack rder is always in front 
+    of elemnts with lower stack order. One of its main advantage is that you are now able to place an image right 
+    under the heading or other writings by giving z-index a value of '-1'.     </blockquote>
+
+<blockquote> On the contrary, if value of z-index is 1 the image will display on top of the text. z-index will only 
+    work for elements that are positioned such as position: absolute, position: relative, position: fixed, or 
+    position: stick. 
+</blockquote>
+
+
+<h3 style="color:rgba(226, 124, 86, 0.986)";>
+The code sample within the body is: 
+</h3>
+
+<pre>   
+    img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+      }
+
+</pre> 
+
+
+<footer> Please click on the <a href = "https://developer.mozilla.org/en-US/docs/Web/CSS/z-index"> source </a>   to read more about 
+'z-index' property </footer>
+</div>
+</main>
+
+</body>
+
+</html>
