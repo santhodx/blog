@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog 8</title>
+<meta charset="UTF-8">
+
+<style>
+    body{
+        background-color: black;
+        margin: 150px;
+        
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+        
+        padding:20px;
+    }
+    
+</style>
+
+
+</head>
+
+<body>
+    <main>
+    <div class="content">
+
+<blockquote>
+    In this blog I am talking about the error handling in JavaScript such as 'try', 'catch', 'throw'
+    and 'finally'.
+</blockquote>
+ 
+<blockquote> 
+    'try' and 'catch' comes in pair. Similar to JAVA, the 'try' statement allows you to check the block of code
+     to be tested while in program execution and 'catch' statement is used to define the block of code if any error occurs.
+</blockquote>
+
+<blockquote>
+     The 'throw' statement when used together with 'try' and 'catch' creates custom error message. Thus, you can throw 
+     an exception. The exception can be a JavaScript String, a Number, a Boolean or an Object. In 'finally' statement, 
+     it helps user to execute the code after try and catch no matter what the result is.
+</blockquote>
+
+<blockquote>
+     
+</blockquote>
+
+
+<h3 style="color:rgba(226, 124, 86, 0.986)";>
+The code snippet within the body is: 
+</h3>
+
+<pre>   
+        try { 
+          if(x == "") throw "is empty";
+          if(isNaN(x)) throw "is not a number";
+          x = Number(x);
+          if(x > 10) throw "is too high";
+          if(x < 5) throw "is too low";
+        }
+        catch(err) {
+          message.innerHTML = "Error: " + err + ".";
+        }
+        finally {
+          document.getElementById("demo").value = "";
+        }
+      }
+
+</pre> 
+
+
+<footer> Please click on the <a href = "https://www.w3schools.com/js/js_errors.asp"> source </a>   to read more about 
+error handling properties in JS </footer>
+</div>
+</main>
+
+</body>
+
+</html>
